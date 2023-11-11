@@ -1,0 +1,46 @@
+body {
+	background-color:rgb(163, 168, 168);
+}
+
+.collapse-container {
+	display: flex;
+	height: 50vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.collapse-button {
+	width: 10vw;
+	height: 4vh;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: large;
+	background-color:rgb(249, 252, 252);
+	transition: background-color 1s;  
+}
+
+.collapse-button:hover {
+	cursor: pointer;
+	background-color:rgb(222, 207, 247);
+}
+
+.collapse-field {
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 1%;
+	padding: 1%;
+	width: 50vw;
+	max-height: 0;
+	opacity: 0;
+	background-color:rgb(249, 252, 252);
+	transition: max-height 0.5s ease; 
+	overflow: hidden;
+}
+
+.opening {
+	max-height: 15vh;
+	opacity: 1;
+}
+
