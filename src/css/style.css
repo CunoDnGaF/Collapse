@@ -35,7 +35,7 @@ body {
 	max-height: 0;
 	opacity: 0;
 	background-color:rgb(249, 252, 252);
-	transition: max-height 0.5s ease; 
+	transition: max-height 0.5s ease, opacity 0.5s ease; 
 	overflow: hidden;
 }
 
